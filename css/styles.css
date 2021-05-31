@@ -1,0 +1,74 @@
+h1{
+  font-size: 3.5rem;
+  padding: 5% 0;
+  font-family: 'ubuntu', sans-serif;
+}
+/* NavBar */
+.ppLogo {
+  color: #1e6f5c;
+}
+/* Header */
+#mainHeader{
+  line-height: 2;
+  text-align: center;
+  color: #1e6f5c;
+  padding: 3% 10% 5%;
+}
+.appbuttons {
+  padding: 5% 2%;
+}
+
+/* About Section */
+#aboutSection
+{
+  background-color: #1e6f5c;
+  text-align: center;
+  padding: 0 3% 5%;
+}
+.aboutContainer{
+  color: white;
+  line-height: 2;
+}
+.aboutH2{
+  padding:3%;
+}
+.richard-hendricks {
+  width: 75%;
+}
+
+/* Pricing */
+#pricingSection{
+  text-align: center;
+  color: #1e6f5c;
+  padding: 3% 10% 5%;
+}
+.pricingColumn{
+  border: 3px solid #1e6f5c;
+  padding: 0 3% 3%;
+}
+.pricingH2{
+  font-size: 3rem;
+  padding:3%;
+  text-align: center;
+  color: #1e6f5c;
+}
+.pricingH3{
+  padding:3%;
+}
+.priceButton{
+  Margin: 5% 0 0;
+}
+/* Contact Us */
+#contactUs{
+  background-color: #1e6f5c;
+  color: white;
+  text-align: center;
+  padding: 5%;
+}
+.fa-envelope{
+  color: White;
+}
+.socialMedia-icon{
+  color: white;
+  padding: 3% 5%;
+}
