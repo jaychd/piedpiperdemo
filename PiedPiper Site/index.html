@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>PiedPiper</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!-- JScript for hamburger button -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+  <!--Fontawesome Icons -->
+  <script src="https://kit.fontawesome.com/9e889f2e27.js" crossorigin="anonymous"></script>
+  <!-- Personal Style Sheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+
+
+<body>
+  <!-- NavBar -->
+  <section id="navBar">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><i class="fab fa-pied-piper-square fa-4x ppLogo"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarButton" aria-controls="navbarButton" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarButton">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  </section>
+
+  <!-- Main Header -->
+  <section id="mainHeader">
+    <div class="container-fluid headerContainer">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>Have tons of files but not enough space?</h1>
+          <p>With Pied Piper's app, you can store as much stuff as you need, taking up minimal storage space and ZERO loss in quality!</p>
+        </div>
+        <div class="col-md-6">
+          <div class="ppHatLogoDiv">
+            <i class="fab fa-pied-piper-hat fa-9x ppHatLogo"></i>
+          </div>
+          <div class="appbuttons">
+            <button type="button" class="appButton btn btn-lg"><i class="fab fa-apple"></i> Download</button>
+            <button type="button" class="appButton btn btn-lg"><i class="fab fa-google-play"></i> Download</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- About -->
+<section id="aboutSection">
+  <div class="container-fluid aboutContainer">
+    <h2 class="aboutH2">About Pied Piper</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <img class="richard-hendricks" src="images/Richard Hendricks.jpg" alt="richard-hendricks">
+      </div>
+      <div class="col-md-6">
+        <p>Pied Piper was founded by Richard Hendricks in 2014 with a revolutionary compression algorithm.  His original intention was to build an application that allowed musicians and songwriters to scan all music and see if they were infringing on copyrighted material.</p>
+        <p>Once he realized that his lossless compression algorithm scored a 2.89 Weissman score and later a 5.2 in a demonstration at TechCrunch Disrupt, he pursued his dream to start Pied Piper, a company that offered a once in a lifetime idea that could be worth billions.</p>
+        <p>His algorithm would also be used in a new video chat software called Piper Chat.  Piper Chat offered amazing quality video conferencing over speeds as low as 3G without pixelation or quality degredation.</p>
+        <p>Pied Piper is now the bleeding edge of compression software in the market.  If you want a platform that can compress all your data without any quality degredation, then Pied Piper is for you!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Pricing -->
+<section id="pricingSection">
+  <div class="container-fluid pricingContainer">
+    <h2 class="pricingH2">Pricing</h2>
+    <h3 class="pricingH3">Choose the right plan for your needs!</h3>
+    <div class="row">
+      <div class="col-md-6 pricingColumn">
+        <h2>Basic</h2>
+        <h4>Free</h4>
+        <ul class="list-group">
+          <li class="list-group-item">1 TB of Free Storage</li>
+          <li class="list-group-item">Users - 1</li>
+          <li class="list-group-item">Unlimited access across all your devices</li>
+          <li class="list-group-item">30 day file recovery</li>
+        </ul>
+        <button type="button" class="btn btn-outline-success priceButton">Sign Up</button>
+      </div>
+      <div class="col-md-6 pricingColumn">
+        <h2>Business</h2>
+        <h4>$99/Year</h4>
+        <ul class="list-group">
+          <li class="list-group-item">10 TB of Free Storage</li>
+          <li class="list-group-item">Users - 50</li>
+          <li class="list-group-item">Unlimited access across all devices</li>
+          <li class="list-group-item">90 day file recovery</li>
+        </ul>
+        <button type="button" class="btn btn-outline-success priceButton">Sign Up</button>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Contact Us -->
+<section id="contactUs">
+  <div class="container-fluid">
+    <h2>Contact Us</h2>
+  </div>
+  <div class="contactUs-icons">
+    <a href="mailto:sales@piedpiper.com"><i class="fas fa-envelope fa-7x"></i></a>
+  </div>
+  <div class="socialMedia">
+    <a href="#"><i class="fab fa-facebook-square fa-5x socialMedia-icon"></i></a>
+    <a href="#"><i class="fab fa-instagram fa-5x socialMedia-icon"></i></a>
+    <a href="#"><i class="fab fa-twitter-square fa-5x socialMedia-icon"></i></a>
+  </div>
+</section>
+
+</body>
+
+</html>
